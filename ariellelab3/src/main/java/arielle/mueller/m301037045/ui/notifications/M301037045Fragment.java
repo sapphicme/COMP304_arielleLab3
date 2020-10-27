@@ -1,4 +1,4 @@
-package arielle.mueller.m301037045.ui.dashboard;
+package arielle.mueller.m301037045.ui.notifications;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,17 +14,17 @@ import androidx.lifecycle.ViewModelProviders;
 
 import arielle.mueller.m301037045.R;
 
-public class DashboardFragment extends Fragment {
+public class M301037045Fragment extends Fragment {
 
-    private DashboardViewModel dashboardViewModel;
+    private M301037045ViewModel notificationsViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        dashboardViewModel =
-                ViewModelProviders.of(this).get(DashboardViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_dashboard, container, false);
-        final TextView textView = root.findViewById(R.id.text_dashboard);
-        dashboardViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+        notificationsViewModel =
+                ViewModelProviders.of(this).get(M301037045ViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_m301037045, container, false);
+        final TextView textView = root.findViewById(R.id.text_notifications);
+        notificationsViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);
@@ -33,3 +33,7 @@ public class DashboardFragment extends Fragment {
         return root;
     }
 }
+
+//Arielle Mueller
+//Student Number: 301037045
+//Sec: 002

@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="arielle.mueller.m301037045.ui.home.HomeFragment"
+        android:name="arielle.mueller.m301037045.ui.home.MuellerFragment"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_mueller" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="arielle.mueller.m301037045.ui.dashboard.DashboardFragment"
+        android:name="arielle.mueller.m301037045.ui.dashboard.ArielleFragment"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_arielle" />
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="arielle.mueller.m301037045.ui.notifications.NotificationsFragment"
+        android:name="arielle.mueller.m301037045.ui.notifications.M301037045Fragment"
         android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_m301037045" />
 </navigation>

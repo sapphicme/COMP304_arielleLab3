@@ -31,3 +31,9 @@
         app:navGraph="@navigation/mobile_navigation" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--
+    Arielle Mueller
+    Student Number: 301037045
+    Sec: 002
+    -->

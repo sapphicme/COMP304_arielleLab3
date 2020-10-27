@@ -14,15 +14,15 @@ import androidx.lifecycle.ViewModelProviders;
 
 import arielle.mueller.m301037045.R;
 
-public class HomeFragment extends Fragment {
+public class MuellerFragment extends Fragment {
 
-    private HomeViewModel homeViewModel;
+    private MuellerViewModel homeViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         homeViewModel =
-                ViewModelProviders.of(this).get(HomeViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_home, container, false);
+                ViewModelProviders.of(this).get(MuellerViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_mueller, container, false);
         final TextView textView = root.findViewById(R.id.text_home);
         homeViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
@@ -33,3 +33,7 @@ public class HomeFragment extends Fragment {
         return root;
     }
 }
+
+//Arielle Mueller
+//Student Number: 301037045
+//Sec: 002

@@ -10,7 +10,7 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
-public class MainActivity extends AppCompatActivity {
+public class arielleActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,3 +28,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
 }
+//Arielle Mueller
+//Student Number: 301037045
+//Sec: 002

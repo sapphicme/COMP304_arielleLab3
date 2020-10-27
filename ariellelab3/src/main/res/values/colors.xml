@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#015C54</color>
+    <color name="colorAccent">#BA9660</color>
+    <color name="arielleBackground">#B58C11</color>
+    <color name="muellerBackground">#708E4D</color>
+    <color name="M301037045Background">#654F0C</color>
 </resources>
+
+    <!--
+    Arielle Mueller
+    Student Number: 301037045
+    Sec: 002
+    -->

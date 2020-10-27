@@ -4,10 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.dashboard.DashboardFragment">
+    android:background="@color/M301037045Background"
+    tools:context=".ui.notifications.M301037045Fragment"
+    tools:ignore="MissingDefaultResource">
 
     <TextView
-        android:id="@+id/text_dashboard"
+        android:id="@+id/text_notifications"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -20,3 +22,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--
+    Arielle Mueller
+    Student Number: 301037045
+    Sec: 002
+    -->
